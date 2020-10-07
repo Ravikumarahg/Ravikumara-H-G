@@ -1,0 +1,30 @@
+Task 1 to 4
+
+#printing maximum value of list
+data1=[11,56,87,97,2,4,6]
+print(max(data1))
+97
+
+#printing second largest number in a list
+data1=[11,56,87,97,2,4,6]
+data1.sort()
+print("second largest value is",data1[-2])
+second largest value is 87
+
+#first merge two lists and sort it
+data1=[Python program to swap the first and last values of a list]
+data2=[1,33,8,90,5,10]
+data=data1+data2
+data.sort()
+print(data)
+  File "<ipython-input-14-90479b559e31>", line 2
+    data1=[Python program to swap the first and last values of a list]
+                  ^
+SyntaxError: invalid syntax
+
+# to swap the first and last values of a list
+data1=[11,56,87,97,2,4,6]
+data1[0],data1[-1]=data1[-1],data1[0]
+print(data1)
+[6, 56, 87, 97, 2, 4, 11]
+In [ ]:
